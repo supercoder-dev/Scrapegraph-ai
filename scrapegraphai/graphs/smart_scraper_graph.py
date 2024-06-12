@@ -6,7 +6,7 @@ from typing import Optional
 
 from .base_graph import BaseGraph
 from .abstract_graph import AbstractGraph
-
+from pydantic_core import core_schema as validate_core_schema
 from ..nodes import (
     FetchNode,
     ParseNode,
