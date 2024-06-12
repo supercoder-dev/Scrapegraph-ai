@@ -6,6 +6,7 @@ from abc import ABC, abstractmethod
 from typing import Optional
 import uuid
 
+# from pydantic_core import validate_core_schema
 from langchain_aws import BedrockEmbeddings
 from langchain_community.embeddings import HuggingFaceHubEmbeddings, OllamaEmbeddings
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
